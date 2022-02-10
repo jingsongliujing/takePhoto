@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/photo/photo",
+    "pages/draw/draw"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/photo/photo",
+        "text": "合成"
+      },
+      {
+        "pagePath": "pages/draw/draw",
+        "text": "涂鸦"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

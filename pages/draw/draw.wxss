@@ -1,0 +1,98 @@
+/* pages/draw/draw.wxss */
+.tab{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabSelect{
+  border-bottom: 1rpx solid #f00;
+  color: #f00;
+}
+
+.draw{
+  margin-top: 20rpx;
+  width: calc(100%-2rpx);
+  height: 100vw;
+  border: 1rpx solid #f00;
+}
+
+.select{
+  margin-top: 10rpx;
+  height: 120rpx;
+  border: 1rpx solid #f00;
+}
+
+.tool{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+
+.color{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.selectColor{
+  border: 1rpx solid yellowgreen
+}
+
+.color-tool{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+
+.download{
+  margin-top: 20rpx;
+}
+
+.draw image{
+  position: absolute;
+  width: calc(100vw-2rpx);
+}
+.draw .tips{
+  position: absolute;
+  width: calc(100vw-2rpx);
+  text-align: center;
+  line-height: 100vw;
+  left: 50%;
+  transform: translate(-50%)
+}
+
+.module{
+  display: flex;
+  text-align: center;
+  width: 90%;
+}
+
+.img-total{
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.img{
+  width: 60px;
+  margin-right: 5px;
+}
+
+.img image{
+  width:50px;
+  height: 50px;
+}
+
+.mask{
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 999;
+  background-color: #000;
+  opacity: 0.3;
+}
+
+.mask image{
+  width: 20px;
+}
